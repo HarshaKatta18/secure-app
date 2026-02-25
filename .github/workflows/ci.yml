@@ -15,6 +15,7 @@ jobs:
       - name: Run Gitleaks Secret Scan
         uses: gitleaks/gitleaks-action@v2
         with:
+          version: 8.18.1
           fail: true
 
       - name: Install Dependencies
